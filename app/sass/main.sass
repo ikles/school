@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
+.html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
   margin: 0
   padding: 0
   border: 0
@@ -16,7 +16,8 @@ body
   line-height: 1
   color: black
   background: white
-  font-family: Oranienbaum
+  font-size: 16px
+  font-family: PTMono
 
 ol, ul
   list-style: none
@@ -49,6 +50,105 @@ ul
 
 @import _fonts
 @import _mnu
+
+.bgrepos 
+  background-repeat: no-repeat 
+  background-position: 0 0 
+
+.wrapper 
+  width: 100%
+  background-position: 0 0
+  background-repeat: repeat  
+  background-image: url("../img/wrap.jpg")
+  overflow: hidden
+
+.w1080 
+  width: 1080px
+  margin: auto
+
+.w1024
+  width: 1024px
+  margin: auto
+
+.top 
+  width: 100%
+  height: 50px
+  background-color: #68cff6
+  background-image: linear-gradient(to top, #c1e4ff 0%, #0060b1 100%)
+  padding-top: 7px
+  box-sizing: border-box
+  
+.top-search
+  input[type=text]
+    width: 314px
+    height: 33px
+    background-color: #f3f3f3
+    border: 1px solid #0046b0
+    border-radius: 15px
+    box-shadow: inset 0 3px 4px rgba(2, 25, 59, 0.64)
+    padding: 0 15px 
+    box-sizing: border-box
+    float: left
+  input[type=submit]
+    float: left
+    margin-left: 10px
+    background: none
+    background-image: url("../img/glass-search.png") 
+    @extend .bgrepos    
+    border: none   
+    width: 31px
+    height: 31px
+    cursor: pointer
+    
+.top-cart-links 
+  float: right
+  text-align: right
+  div
+    float: left
+    color: black
+    font-family: PTMono
+    font-size: 17px
+    font-weight: 700
+    line-height: 23px    
+    line-height: 2.1 
+  a
+    color: black
+    text-decoration: underline
+
+.help-link
+  margin-right: 40px
+  margin-left: 58px
+
+.cart-link
+  display: block
+  float: left
+  a
+    margin-left: 25px
+    display: block
+    padding-left: 50px 
+    @extend .bgrepos
+    background-image: url("../img/cart-icon.png") 
+    height: 35px
+    float: left
+  span
+    margin-left: 10px
+    float: left
+    display: block
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
