@@ -46,6 +46,9 @@ ul {
   padding: 0;
   margin: 0; }
 
+b, bold {
+  font-weight: bold; }
+
 @font-face {
   font-family: PTMono;
   src: url(../fonts/pt-mono.ttf); }
@@ -110,7 +113,7 @@ ul {
   opacity: 1;
   visibility: visible; }
 
-.bgrepos, .top-search input[type=submit], .cart-link a, .blue-block {
+.bgrepos, .top-search input[type=submit], .cart-link a, .blue-block, .top-phone, .top-mail {
   background-repeat: no-repeat;
   background-position: 0 0; }
 
@@ -206,7 +209,9 @@ ul {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-left: 20px;
-  padding-top: 5px; }
+  padding-top: 5px;
+  margin-bottom: 30px;
+  margin-top: 20px; }
 
 .white-col {
   background-color: #FFF;
@@ -258,6 +263,60 @@ ul {
 
 .nopadding {
   padding: 0 !important; }
+
+.col-contacts {
+  margin-top: 35px; }
+  .col-contacts div {
+    padding-left: 40px;
+    color: white;
+    font-family: PTMono;
+    font-size: 17px;
+    line-height: 1.7;
+    font-weight: bold; }
+  .col-contacts a {
+    color: white;
+    font-family: PTMono;
+    font-size: 17px; }
+
+.top-phone {
+  background-image: url("../img/phone-icon.png");
+  height: 32px;
+  margin-bottom: 5px; }
+
+.top-mail {
+  background-image: url("../img/mail-icon.png");
+  height: 23px;
+  line-height: 1; }
+
+.bloquot {
+  margin: auto;
+  width: 950px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  padding: 20px 0 20px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: PTMono;
+  font-size: 14px;
+  color: #46494a;
+  line-height: 1.2;
+  overflow: hidden;
+  background: #e5f8ff url("../img/teacher1.png") no-repeat right bottom;
+  padding-right: 320px;
+  margin-bottom: 55px; }
+  .bloquot p {
+    margin-bottom: 20px; }
+    .bloquot p:last-child {
+      margin-bottom: 0; }
+
+a {
+  color: #ff6c00;
+  font-weight: 700;
+  text-decoration: underline; }
+
+.flor {
+  float: right;
+  margin: 0 0 0 10px; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
