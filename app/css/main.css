@@ -117,7 +117,7 @@ b, bold {
   opacity: 1;
   visibility: visible; }
 
-.bgrepos, .top-search input[type=submit], .cart-link a, .blue-block, .top-phone, .top-mail, .arrows a {
+.bgrepos, .top-search input[type=submit], .cart-link a, .blue-block, .top-phone, .top-mail, .arrows a, .obords li {
   background-repeat: no-repeat;
   background-position: 0 0; }
 
@@ -134,7 +134,9 @@ b, bold {
 
 .w1024 {
   width: 1024px;
-  margin: auto; }
+  margin: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 .top {
   width: 100%;
@@ -395,6 +397,91 @@ a {
 .arrow-r {
   background-image: url("../img/arrow-r.png");
   right: 5px; }
+
+.col-pop {
+  padding: 25px 20px; }
+  .col-pop > div {
+    text-align: center;
+    overflow: hidden; }
+    .col-pop > div a {
+      color: black;
+      font-family: PTMono;
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 1.2;
+      text-decoration: underline; }
+  .col-pop h2 {
+    margin-bottom: 20px; }
+    .col-pop h2 a {
+      color: black;
+      font-family: PTMono;
+      font-weight: 700;
+      font-size: 26px;
+      text-decoration: underline; }
+  .col-pop .add_cart {
+    height: 41px;
+    background-color: #fc0;
+    padding: 0 10px;
+    border: 2px solid white;
+    -webkit-border-radius: 15px;
+            border-radius: 15px;
+    display: inline-block;
+    color: black;
+    font-family: PTMono;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 2;
+    text-decoration: underline;
+    margin-top: 17px; }
+
+.add_cart.added {
+  background-color: #a3ffa5;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: none;
+  line-height: 2.6; }
+
+.pops div {
+  padding: 17px 0 !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid transparent;
+  margin-bottom: 10px; }
+  .pops div:hover {
+    border: 1px solid #0071bb;
+    -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.28);
+            box-shadow: 0 4px 5px rgba(0, 0, 0, 0.28); }
+
+.obords {
+  background-color: #004D8C;
+  padding: 15px 30px;
+  overflow: hidden; }
+  .obords h2 {
+    margin-bottom: 25px; }
+    .obords h2 a {
+      color: white;
+      font-family: PTMonoB;
+      font-size: 26px;
+      text-decoration: underline;
+      text-transform: uppercase; }
+  .obords li {
+    float: left;
+    width: -webkit-calc(100% / 7);
+    width: calc(100% / 7);
+    text-align: center;
+    padding-top: 70px;
+    background-position: top center; }
+    .obords li:first-child {
+      background-image: url("../img/rus.png"); }
+    .obords li:nth-child(2) {
+      background-image: url("../img/mat.png"); }
+    .obords li a {
+      font-size: 14px;
+      color: #FFF;
+      font-family: PTMono;
+      text-align: center; }
+      .obords li a:hover {
+        text-decoration: none; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
