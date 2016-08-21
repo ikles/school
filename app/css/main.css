@@ -53,6 +53,10 @@ b, bold {
   font-family: PTMono;
   src: url(../fonts/pt-mono.ttf); }
 
+@font-face {
+  font-family: PTMonoB;
+  src: url(../fonts/pt-mono-b.ttf); }
+
 .toggle-mnu {
   display: block;
   float: right;
@@ -113,7 +117,7 @@ b, bold {
   opacity: 1;
   visibility: visible; }
 
-.bgrepos, .top-search input[type=submit], .cart-link a, .blue-block, .top-phone, .top-mail {
+.bgrepos, .top-search input[type=submit], .cart-link a, .blue-block, .top-phone, .top-mail, .arrows a {
   background-repeat: no-repeat;
   background-position: 0 0; }
 
@@ -143,29 +147,30 @@ b, bold {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
-.top-search input[type=text] {
-  width: 314px;
-  height: 33px;
-  background-color: #f3f3f3;
-  border: 1px solid #0046b0;
-  -webkit-border-radius: 15px;
-          border-radius: 15px;
-  -webkit-box-shadow: inset 0 3px 4px rgba(2, 25, 59, 0.64);
-          box-shadow: inset 0 3px 4px rgba(2, 25, 59, 0.64);
-  padding: 0 15px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  float: left; }
-
-.top-search input[type=submit] {
-  float: left;
-  margin-left: 10px;
-  background: none;
-  background-image: url("../img/glass-search.png");
-  border: none;
-  width: 31px;
-  height: 31px;
-  cursor: pointer; }
+.top-search {
+  margin-left: 25px; }
+  .top-search input[type=text] {
+    width: 314px;
+    height: 33px;
+    background-color: #f3f3f3;
+    border: 1px solid #0046b0;
+    -webkit-border-radius: 15px;
+            border-radius: 15px;
+    -webkit-box-shadow: inset 0 3px 4px rgba(2, 25, 59, 0.64);
+            box-shadow: inset 0 3px 4px rgba(2, 25, 59, 0.64);
+    padding: 0 15px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    float: left; }
+  .top-search input[type=submit] {
+    float: left;
+    margin-left: 10px;
+    background: none;
+    background-image: url("../img/glass-search.png");
+    border: none;
+    width: 31px;
+    height: 31px;
+    cursor: pointer; }
 
 .top-cart-links {
   float: right;
@@ -210,12 +215,13 @@ b, bold {
           box-sizing: border-box;
   padding-left: 20px;
   padding-top: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   margin-top: 20px; }
 
 .white-col {
   background-color: #FFF;
-  overflow: hidden; }
+  overflow: hidden;
+  padding-bottom: 25px; }
 
 .logo {
   float: left; }
@@ -287,6 +293,8 @@ b, bold {
   background-image: url("../img/mail-icon.png");
   height: 23px;
   line-height: 1; }
+  .top-mail a {
+    text-decoration: none; }
 
 .bloquot {
   margin: auto;
@@ -317,6 +325,76 @@ a {
 .flor {
   float: right;
   margin: 0 0 0 10px; }
+
+.oborud {
+  width: 980px;
+  margin: auto; }
+  .oborud a {
+    color: #4180e4;
+    font-family: PTMono;
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: underline; }
+  .oborud > div {
+    text-align: center; }
+    .oborud > div span {
+      margin-top: 10px;
+      display: block; }
+
+.slider {
+  position: relative;
+  padding: 15px 0;
+  width: 100%;
+  background: url("../img/slider-top.png") no-repeat 0 0, url("../img/slider-bottom.png") no-repeat bottom left;
+  font-size: 0; }
+
+.slider-text {
+  text-align: center;
+  width: 520px;
+  left: 40px;
+  top: 30px;
+  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
+  color: white;
+  font-family: PTMonoB;
+  text-transform: uppercase;
+  font-size: 48px;
+  position: absolute; }
+  .slider-text p {
+    line-height: 1.2;
+    margin-bottom: 90px; }
+  .slider-text span {
+    font-size: 34px; }
+  .slider-text a {
+    margin-top: 60px;
+    height: 56px;
+    width: auto;
+    padding: 0 15px;
+    background-color: #fc0;
+    border: 2px solid white;
+    -webkit-border-radius: 15px;
+            border-radius: 15px;
+    display: inline-block;
+    color: black;
+    font-family: PTMonoB;
+    font-size: 26px;
+    line-height: 2;
+    text-shadow: none;
+    text-transform: none; }
+
+.arrows a {
+  position: absolute;
+  top: 200px;
+  width: 59px;
+  height: 106px;
+  display: block; }
+
+.arrow-l {
+  background-image: url("../img/arrow-l.png");
+  left: 5px; }
+
+.arrow-r {
+  background-image: url("../img/arrow-r.png");
+  right: 5px; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
