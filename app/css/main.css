@@ -570,6 +570,36 @@ a {
 .nopadding-l {
   padding-left: 0 !important; }
 
+.col-projects li {
+  text-align: center;
+  float: left;
+  margin-right: 120px; }
+  .col-projects li:last-child {
+    margin-right: 0; }
+
+.col-projects h2 {
+  color: black;
+  font-family: PTMono;
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 25px; }
+  .col-projects h2 a {
+    color: black;
+    text-decoration: underline; }
+
+.col-projects a {
+  color: black; }
+  .col-projects a span {
+    color: black;
+    font-family: PTMono;
+    font-size: 26px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 7px; }
+
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
