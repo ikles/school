@@ -716,10 +716,48 @@ a {
 
 .light-blue-block {
   background-color: #4A81AD;
-  width: 100%; }
-  .light-blue-block .text-mod {
+  width: 100%;
+  overflow: hidden;
+  font-family: PTMono; }
+  .light-blue-block .w1024 {
     width: 1024px;
-    margin: auto; }
+    margin: auto;
+    padding: 20px 40px; }
+  .light-blue-block .col-lg-3 {
+    padding-right: 15px !important; }
+  .light-blue-block h2 {
+    font-size: 17px;
+    color: #000;
+    margin-bottom: 2px;
+    line-height: 1; }
+  .light-blue-block li {
+    float: left;
+    line-height: 1.2; }
+    .light-blue-block li:after {
+      content: ",";
+      color: #FFF; }
+    .light-blue-block li:last-child:after {
+      display: none; }
+    .light-blue-block li a {
+      font-size: 14px;
+      color: #FFF; }
+
+.bot-mnu {
+  margin-bottom: 20px;
+  overflow: hidden; }
+
+.bot {
+  float: left;
+  overflow: hidden; }
+
+.bot1 {
+  width: 300px; }
+
+.bot2 {
+  width: 262px; }
+
+.bot3 {
+  width: 380px; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
