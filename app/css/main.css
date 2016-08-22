@@ -224,6 +224,8 @@ b, bold {
   background-color: #FEFFFF;
   overflow: hidden;
   padding-bottom: 25px; }
+  .white-col:first-child {
+    padding-bottom: 0; }
 
 .logo {
   float: left; }
@@ -432,7 +434,8 @@ a {
     font-weight: 700;
     line-height: 2;
     text-decoration: underline;
-    margin-top: 17px; }
+    margin-top: 17px;
+    text-transform: uppercase; }
 
 .add_cart.added {
   background-color: #a3ffa5;
@@ -869,7 +872,7 @@ a {
 
 .oborud-list {
   overflow: hidden;
-  padding: 15px 35px 55px 35px; }
+  padding: 15px 35px 40px 35px; }
   .oborud-list h2 {
     color: #786a6a;
     font-family: PTMono;
@@ -919,6 +922,49 @@ a {
         color: #786a6a; }
       .oborud-list .text-mod li:last-child:after {
         display: none; }
+
+.catal {
+  padding: 25px; }
+  .catal h2 {
+    color: black;
+    font-family: PTMonoB;
+    font-size: 26px;
+    background-image: url("../img/dotte.png");
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    padding-bottom: 5px; }
+  .catal .text-mod {
+    margin-top: 20px; }
+    .catal .text-mod li {
+      width: 25%;
+      float: left;
+      text-align: center;
+      margin-bottom: 35px; }
+      .catal .text-mod li a {
+        color: black;
+        font-family: PTMono;
+        font-size: 17px;
+        font-weight: 700;
+        text-decoration: underline; }
+
+.add_cart2 {
+  color: black;
+  font-family: PTMono;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 2;
+  text-decoration: underline;
+  height: 41px;
+  background-color: #fc0;
+  border: 2px solid white;
+  -webkit-border-radius: 15px;
+          border-radius: 15px;
+  display: block;
+  width: 139px;
+  text-align: center;
+  margin: 35px auto 0;
+  text-transform: uppercase;
+  line-height: 2.1; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */

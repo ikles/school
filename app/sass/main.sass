@@ -156,7 +156,9 @@ b, bold
   background-color: #FEFFFF
   overflow: hidden
   padding-bottom: 25px
-  
+  &:first-child
+    padding-bottom: 0
+
 .logo
   float: left
 
@@ -369,6 +371,7 @@ a
     line-height: 2
     text-decoration: underline
     margin-top: 17px
+    text-transform: uppercase
   
 .add_cart.added
   background-color: #a3ffa5
@@ -817,7 +820,7 @@ a
 
 .oborud-list
   overflow: hidden
-  padding: 15px 35px 55px 35px
+  padding: 15px 35px 40px 35px
   h2
     color: #786a6a
     font-family: PTMono
@@ -877,9 +880,46 @@ a
       &:last-child:after
         display: none
 
-
-
-
+.catal
+  padding: 25px
+  h2
+    color: black
+    font-family: PTMonoB
+    font-size: 26px
+    background-image: url("../img/dotte.png")
+    background-position: left bottom
+    background-repeat: repeat-x
+    padding-bottom: 5px
+  .text-mod
+    margin-top: 20px
+    li
+      width: 25%
+      float: left
+      text-align: center
+      margin-bottom: 35px
+      a
+        color: black
+        font-family: PTMono
+        font-size: 17px
+        font-weight: 700
+        text-decoration: underline         
+.add_cart2 
+  color: black
+  font-family: PTMono
+  font-size: 17px
+  font-weight: 700
+  line-height: 2
+  text-decoration: underline
+  height: 41px
+  background-color: #fc0
+  border: 2px solid white
+  border-radius: 15px
+  display: block
+  width: 139px
+  text-align: center    
+  margin: 35px auto 0
+  text-transform: uppercase
+  line-height: 2.1
 
 
 
