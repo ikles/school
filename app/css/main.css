@@ -685,7 +685,7 @@ a {
   margin: 40px auto 0 auto; }
 
 .bot-icons {
-  padding: 70px 60px; }
+  padding: 60px; }
   .bot-icons ul {
     display: table;
     text-align: center;
@@ -990,6 +990,8 @@ a {
       font-weight: 400; }
 
 .col-product {
+  padding-left: 40px;
+  padding-right: 40px;
   padding-top: 75px;
   color: black;
   font-family: PTMono;
@@ -1010,7 +1012,8 @@ a {
   text-align: center; }
 
 .col-prod-text table {
-  width: 100%; }
+  width: 100%;
+  margin-top: 40px; }
 
 .col-prod-text thead td {
   width: 50%;
@@ -1040,7 +1043,8 @@ a {
   font-weight: 700;
   line-height: 2;
   text-decoration: underline;
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase; }
 
 .col-obor2 {
   padding-bottom: 0; }
