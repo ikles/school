@@ -1,9 +1,93 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) 
-	
+@media only screen and (max-width : 1200px) 			
+	.w1080
+		width: 100%
+		
+	.w1024
+		width: 943px
+		
+	.blue-block
+		background-size:  100%
+		width: 100%
+	.top
+		.w1024
+			overflow: hidden
+	.top-search
+		margin-left: 10px
+		
+	.help-link
+		margin-right: 15px
+	.bloquot		
+		width: calc(100% - 25px)
+	.oborud
+		width: 100%
+	.slider
+		width: 992px
+		margin: auto
+		padding: 13px 0
+		background-size:  100%
+		img
+			width: 100%
+			max-width: 100% 
 			
+	.slider-text
+		font-size: 40px
+		width: 45%
+		p
+			margin-bottom: 45px
+		a
+			font-size: 20px
+			line-height: 2.5
+			
+	.pops
+		div
+			img
+				max-width: 100% 
+	.free-call
+		width: 100%
+		&:after
+			background-size: 100%
+			width: 100%
+			top: -15px
+		&:before
+			background-size: 100%
+			width: 100%
+			bottom: -16px
+			
+	.col-free-phone
+		font-size: 45px
+		line-height: 1.8
+		
+	.col-free-text
+		font-size: 34px
+		span
+			font-size: 24px
+			
+	.col-projects
+		li
+			margin-right: 80px
+
+	.bot-icons
+		ul
+			text-align: center
+			display: block
+		li			
+			padding-right: 0 
+			display: inline-block
+			margin-right: 20px
+			margin-left: 20px
+	.bot1
+		width: 25%
+		margin-right: 5%
+	.bot2
+		width: 30%	
+	.bot3
+		width: 40%
+		
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) 
 	.main-mnu
 		display: none
 		float: right
@@ -32,13 +116,6 @@
 			text-align: right
 			&:hover 
 				text-decoration: underline
-					
-		a:hover, li.active a 
-			border: none
-			
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) 
-	/**/
 	
 
 /* Small Devices, Tablets */
@@ -75,15 +152,14 @@
 	
 /* Small Devices, Tablets */
 @media only screen and (min-width : 1200px)
-	.main-mnu 
-		display: block !important
-	a 
-		outline: none !important
-
+	/**/
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px)
-	/**/
+	.main-mnu 
+		display: block !important
+		a 
+			outline: none !important
 
 
 /* Large Devices, Wide Screens */
