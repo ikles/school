@@ -221,7 +221,7 @@ b, bold {
   margin-top: 20px; }
 
 .white-col {
-  background-color: #FFF;
+  background-color: #FEFFFF;
   overflow: hidden;
   padding-bottom: 25px; }
 
@@ -826,31 +826,99 @@ a {
         font-weight: 400;
         text-decoration: underline; }
 
+.col-cat ul li:nth-child(3) span {
+  margin-top: -10px; }
+
 .col-uch-zav {
   background-color: #008CFF;
   padding: 20px 35px;
   overflow: hidden; }
+  .col-uch-zav .text-mod {
+    overflow: hidden;
+    margin-top: 50px; }
   .col-uch-zav h2 {
     color: white;
     font-family: PTMono;
     font-size: 26px;
     font-weight: 700; }
-  .col-uch-zav ul {
-    display: block;
-    text-align: center; }
   .col-uch-zav li {
-    display: inline-block;
-    width: 20%;
-    height: 165px; }
+    width: 25%;
+    float: left;
+    text-align: center; }
     .col-uch-zav li a {
       color: #FFF;
-      text-decoration: none; }
-    .col-uch-zav li span {
-      color: white;
-      font-family: PTMono;
-      font-size: 26px;
-      font-weight: 400;
-      text-decoration: underline; }
+      text-decoration: none;
+      background-repeat: no-repeat;
+      background-position: top center;
+      padding-top: 135px;
+      display: block; }
+      .col-uch-zav li a span {
+        color: white;
+        font-family: PTMono;
+        font-size: 26px;
+        font-weight: 400;
+        text-decoration: underline; }
+  .col-uch-zav li:first-child a {
+    background-image: url("../img/detsad.png"); }
+  .col-uch-zav li:nth-child(2) a {
+    background-image: url("../img/nachschool.png"); }
+  .col-uch-zav li:nth-child(3) a {
+    background-image: url("../img/sredschool.png"); }
+  .col-uch-zav li:nth-child(4) a {
+    background-image: url("../img/highschool.png"); }
+
+.oborud-list {
+  overflow: hidden;
+  padding: 15px 35px 55px 35px; }
+  .oborud-list h2 {
+    color: #786a6a;
+    font-family: PTMono;
+    font-weight: 400;
+    font-size: 26px; }
+  .oborud-list .text-mod {
+    margin-top: 35px;
+    overflow: hidden; }
+    .oborud-list .text-mod li {
+      float: left;
+      color: #786a6a;
+      margin-right: 5px;
+      margin-bottom: 5px; }
+      .oborud-list .text-mod li a {
+        font-size: 14px;
+        text-decoration: underline;
+        color: #786a6a;
+        height: 24px;
+        background-color: #f69679;
+        -webkit-border-radius: 5px;
+                border-radius: 5px;
+        display: inline-block;
+        line-height: 1.7;
+        padding: 0 5px; }
+      .oborud-list .text-mod li:nth-child(2) a {
+        background-color: #f6b979; }
+      .oborud-list .text-mod li:nth-child(3) a {
+        background-color: #f6e079; }
+      .oborud-list .text-mod li:nth-child(4) a {
+        background-color: #79bff6; }
+      .oborud-list .text-mod li:nth-child(5) a {
+        background-color: #79f6da; }
+      .oborud-list .text-mod li:nth-child(6) a {
+        background-color: #79f67e; }
+      .oborud-list .text-mod li:nth-child(7) a {
+        background-color: #cef679; }
+      .oborud-list .text-mod li:nth-child(8) a {
+        background-color: #cb79f6; }
+      .oborud-list .text-mod li:nth-child(9) a {
+        background-color: #f679e6; }
+      .oborud-list .text-mod li:nth-child(10) a {
+        background-color: #f679a2; }
+      .oborud-list .text-mod li:nth-child(11) a {
+        background-color: #f67979; }
+      .oborud-list .text-mod li:after {
+        content: ",";
+        color: #786a6a; }
+      .oborud-list .text-mod li:last-child:after {
+        display: none; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
