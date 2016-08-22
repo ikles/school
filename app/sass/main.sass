@@ -507,9 +507,7 @@ a
     line-height: 1
   span
     font-size: 26px
-    line-height: 1
-.col-projects
-  padding: 25px 30px
+    line-height: 1  
 
 .nopadding-r
   padding-right: 0 !important
@@ -518,11 +516,19 @@ a
 
 
 .col-projects
+  padding: 25px 30px
+  ul
+    width: 100%
+    display: block
+    overflow: hidden  
   li
     text-align: center
     float: left
     margin-right: 120px
-    &:last-child
+    margin-bottom: 20px
+    height: 215px
+    overflow: hidden
+    &:nth-child(3n)
       margin-right: 0
   h2
     color: black
@@ -533,9 +539,7 @@ a
     margin-bottom: 25px
     a
       color: black
-      text-decoration: underline
-      
-
+      text-decoration: underline      
   a
     color: black
     span
@@ -547,6 +551,129 @@ a
       text-transform: uppercase
       display: block
       margin-top: 7px
+
+.wrap-all
+  width: 100%
+  overflow: hidden
+
+.view-all-reviews
+  display: block
+  margin: auto
+  width: 100%
+  text-align: center
+  padding-bottom: 10px 
+  background-image: url("../img/dotte.png")
+  background-repeat: repeat-x
+  background-position: left bottom
+  color: black
+  font-family: PTMono
+  font-size: 17px
+  text-decoration: underline
+
+.reviews-cantainer
+  overflow: hidden
+  margin-bottom: 20px
+
+.how-we-works
+  padding: 65px 40px
+  h2
+    color: black
+    font-family: PTMono
+    font-size: 26px
+    a
+      color: black
+      font-weight: 700
+      text-decoration: underline
+      text-transform: uppercase
+      margin-bottom: 35px
+  .text-mod
+    margin-top: 20px
+  table
+    width: 100%
+    td
+      width: 20%
+      box-sizing: border-box
+      padding: 0 10px
+      background-repeat: no-repeat 
+      background-position: top center
+      height: 151px
+      vertical-align: middle
+      &:first-child
+        background-image: url("../img/1.png") 
+      &:nth-child(2)
+        background-image: url("../img/2.png")
+      &:nth-child(3)
+        background-image: url("../img/3.png")
+      &:nth-child(4)
+        background-image: url("../img/4.png")
+      &:nth-child(5)
+        background-image: url("../img/5.png")
+
+.go-to-catalog
+  display: block
+  color: black
+  font-family: PTMono
+  font-size: 37px
+  font-weight: 700
+  line-height: 1.3
+  text-decoration: underline
+  text-align: center
+  width: 470px
+  height: 56px
+  background-color: #fc0
+  border: 2px solid white
+  border-radius: 15px
+  box-shadow: 0 0 25.4px 1.6px rgba(255, 204, 0, 0.75)
+  margin: 40px auto 0 auto
+
+.bot-icons
+  padding: 70px 60px
+  ul
+    display: table
+    text-align: center
+    width: 100%
+  li
+    display: table-cell
+    width: 225px    
+    box-sizing: border-box
+    text-align: left
+    vertical-align: middle
+    color: black
+    font-family: PTMono
+    font-size: 17px
+    font-weight: 400
+    text-decoration: underline
+    background-repeat: no-repeat 
+    background-position: left center 
+    height: 56px
+    padding: 0 160px
+    padding-left: 60px
+    line-height: 1.2
+    &:first-child
+      background-image: url("../img/rocket.png") 
+    &:nth-child(2)
+      background-image: url("../img/online.png") 
+    &:nth-child(3)
+      background-image: url("../img/case.png") 
+    a
+      color: #000 
+
+.light-blue-block
+  background-color: #4A81AD 
+  width: 100%
+  .text-mod
+    width: 1024px
+    margin: auto
+
+
+
+
+
+
+
+
+
+
 
 
 
