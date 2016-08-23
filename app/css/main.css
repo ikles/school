@@ -1079,6 +1079,10 @@ a {
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
+  .col-product {
+    padding-bottom: 40px; }
+  .col-prod-image {
+    margin-bottom: 20px; }
   .col-cat ul li {
     width: 30%;
     margin-bottom: 40px;
@@ -1123,7 +1127,8 @@ a {
     max-width: 100%; }
   .free-call {
     width: 992px;
-    margin: auto; }
+    margin-left: auto;
+    margin-right: auto; }
     .free-call:after {
       background-size: 100%;
       width: 100%;
@@ -1132,6 +1137,10 @@ a {
       background-size: 100%;
       width: 100%;
       bottom: -16px; }
+  .free-call2 {
+    margin-bottom: 14px; }
+    .free-call2:after {
+      top: -14px; }
   .col-free-phone {
     font-size: 45px;
     line-height: 1.8; }
@@ -1248,9 +1257,12 @@ a {
   .pops div span {
     display: block; }
   .free-call {
+    margin-bottom: 10px;
     width: 769px; }
     .free-call:after {
       top: -11px; }
+  .free-call2:after {
+    top: -12px !important; }
   .col-free-phone {
     font-size: 35px;
     line-height: 2.5; }
@@ -1293,6 +1305,10 @@ a {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+  .col-bread {
+    padding-top: 20px; }
+  .free-call {
+    margin-bottom: 0; }
   .col-uch-zav h2 {
     text-align: center; }
   .catal h2, .oborud-list h2 {
@@ -1402,10 +1418,14 @@ a {
   /**/ }
 
 @media only screen and (max-width: 570px) {
-  /**/ }
+  .col-prod-image > img {
+    width: 100%;
+    max-width: 100%; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
+  .col-prod-text td, .col-prod-text thead td {
+    font-size: 13px; }
   .catal .text-mod li {
     width: 100%; }
   .col-uch-zav li a span {
