@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>School</name>
+	<creationDate>15 august 2015</creationDate>
+	<author>Igor Lkeshev</author>
+	<authorEmail>ikles.ru@ya.ru</authorEmail>
+	<authorUrl>http://ikles.ru</authorUrl>
+	<copyright>Copyright (C) 2005 - 2015 Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>3.1.0</version>
+	<description>Description</description>
+
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>img</folder>
+		<folder>fonts</folder>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+	<positions>
+		<position>top-search</position>
+		<position>cab</position>
+		<position>help-link</position>
+		<position>cart-link</position>
+		<position>col-mnu</position>
+		<position>top-mail</position>
+		<position>top-phone</position>
+		<position>oborud</position>
+		<position>slider</position>
+		<position>col-pop</position>
+	</positions>
+</extension>

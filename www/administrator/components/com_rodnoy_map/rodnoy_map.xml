@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+    <name>com_rodnoy_map</name>
+    <creationDate>2016-08-14</creationDate>
+    <copyright>2016 Pti_the_Leader</copyright>
+    <license>GNU General Public License версии 2 или более поздней; Смотрите LICENSE.txt</license>
+    <author>Pti_the_Leader</author>
+    <authorEmail>ptipti@ptipti.ru</authorEmail>
+    <authorUrl>http://ptipti.ru</authorUrl>
+    <version>CVS: 1.0</version>
+    <description>Интерактивная карта посёлка Родной</description>
+    
+    
+    
+    <install> <!-- Runs on install -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <update> <!-- Runs on update -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/update.mysql.utf8.sql</file>
+        </sql>
+    </update>
+    <uninstall> <!-- Runs on uninstall -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>rodnoy_map.php</filename>
+        <filename>controller.php</filename>
+        <filename>router.php</filename>
+        <folder>views</folder>
+        <folder>models</folder>
+        <folder>controllers</folder>
+        <folder>helpers</folder>
+        <folder>assets</folder>
+    </files>
+    <media destination="com_rodnoy_map" folder="media">
+        <folder>js</folder>
+        <folder>css</folder>
+    </media>
+    <languages folder="languages/site">
+        
+			<language tag="en-GB">en-GB/en-GB.com_rodnoy_map.ini</language>
+			<language tag="ru-RU">ru-RU/ru-RU.com_rodnoy_map.ini</language>
+    </languages>
+    <administration>
+        <menu img="media/com_rodnoy_map/images/s_com_rodnoy_map.png" >COM_RODNOY_MAP</menu>
+        <submenu>
+            
+			<menu link="option=com_rodnoy_map&amp;view=__rodnoy_map_items9370s" view="__rodnoy_map_items9370s" img="media/com_rodnoy_map/images/s___rodnoy_map_items9370s.png" alt="Rodnoy_map/__rodnoy_map_items9370s">COM_RODNOY_MAP_TITLE___RODNOY_MAP_ITEMS9370S</menu>
+
+        </submenu>
+        <files folder="administrator">
+            <filename>access.xml</filename>
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>index.html</filename>
+            <filename>rodnoy_map.php</filename>
+            <folder>controllers</folder>
+            <folder>assets</folder>
+            <folder>helpers</folder>
+            <folder>models</folder>
+            <folder>sql</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+        </files>
+        <languages folder="languages/administrator">
+            
+			<language tag="en-GB">en-GB/en-GB.com_rodnoy_map.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_rodnoy_map.sys.ini</language>
+			<language tag="ru-RU">ru-RU/ru-RU.com_rodnoy_map.ini</language>
+			<language tag="ru-RU">ru-RU/ru-RU.com_rodnoy_map.sys.ini</language>
+        </languages>
+    </administration>
+    <config>
+        <fields name="params">
+            <fieldset name="component">
+                <field name="save_history" default="0" />
+            </fieldset>
+        </fields>
+    </config>
+    <plugins>
+        <plugin group="search" plugin="rodnoy_map"/>
+    </plugins>
+    
+</extension>
+<!-- Component built by the Joomla Component Creator -->
+<!-- http://www.component-creator.com/ -->

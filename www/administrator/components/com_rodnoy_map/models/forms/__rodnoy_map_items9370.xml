@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+  <fieldset>
+    <field name="checked_out" type="hidden" filter="unset"/>
+    <field name="checked_out_time" default="0000-00-00 00:00:00" type="hidden" filter="unset"/>
+    <field name="ordering"/>
+    <field name="id" type="text" readonly="true" class="readonly" default="0" description="JGLOBAL_FIELD_ID_DESC"/>
+    <field name="number" type="text" filter="raw" required="true" label="COM_RODNOY_MAP_FORM_LBL___RODNOY_MAP_ITEMS9370_NUMBER" description="COM_RODNOY_MAP_FORM_DESC___RODNOY_MAP_ITEMS9370_NUMBER" hint="COM_RODNOY_MAP_FORM_LBL___RODNOY_MAP_ITEMS9370_NUMBER"/>
+    <field name="status" type="list" label="COM_RODNOY_MAP_FORM_LBL___RODNOY_MAP_ITEMS9370_STATUS" description="COM_RODNOY_MAP_FORM_DESC___RODNOY_MAP_ITEMS9370_STATUS" hint="COM_RODNOY_MAP_FORM_LBL___RODNOY_MAP_ITEMS9370_STATUS">
+      <option value="none">COM_RODNOY_MAP___RODNOY_MAP_ITEMS9370S_STATUS_OPTION_NONE</option>
+      <option value="forsale">COM_RODNOY_MAP___RODNOY_MAP_ITEMS9370S_STATUS_OPTION_FORSALE</option>
+      <option value="secondsale">COM_RODNOY_MAP___RODNOY_MAP_ITEMS9370S_STATUS_OPTION_SECONDSALE</option>
+      <option value="insale">COM_RODNOY_MAP___RODNOY_MAP_ITEMS9370S_STATUS_OPTION_INSALE</option>
+      <option value="reserved">COM_RODNOY_MAP___RODNOY_MAP_ITEMS9370S_STATUS_OPTION_RESERVED</option>
+    </field>
+    <field name="image" type="media" label="COM_RODNOY_MAP_FORM_LBL___RODNOY_MAP_ITEMS9370_IMAGE" description="COM_RODNOY_MAP_FORM_DESC___RODNOY_MAP_ITEMS9370_IMAGE" hint="COM_RODNOY_MAP_FORM_LBL___RODNOY_MAP_ITEMS9370_IMAGE" directory="rodnoy"/>
+    <field name="desc" type="editor" label="COM_RODNOY_MAP_FORM_LBL___RODNOY_MAP_ITEMS9370_DESC" description="COM_RODNOY_MAP_FORM_DESC___RODNOY_MAP_ITEMS9370_DESC" hint="COM_RODNOY_MAP_FORM_LBL___RODNOY_MAP_ITEMS9370_DESC" filter="safehtml" />
+    <field name="version_note" type="text" label="JGLOBAL_FIELD_VERSION_NOTE_LABEL" description="JGLOBAL_FIELD_VERSION_NOTE_DESC" class="inputbox" size="45" labelclass="control-label"/>
+  </fieldset>
+</form>
