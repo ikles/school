@@ -72,14 +72,8 @@ $app = JFactory::getApplication();
 			<jdoc:include type="modules" name="col-projects" style="mystyle" />											
 			<jdoc:include type="modules" name="wrap-all" style="mystyle" />																	
 			<jdoc:include type="modules" name="how-we-works" style="mystyle" />																				
-			<a href="#" class="go-to-catalog">Перейти к каталогу!</a>			
-			<div class="w1024 bot-icons">
-				<ul>
-					<li><a href="#">Доставка&nbsp;по <br>всей России</a></li>
-					<li><a href="#">Наличный и безналичный рассчет</a></li>
-					<li><a href="#">Чистый документооборот</a></li>
-				</ul>
-			</div><!--bot-icons-->
+			<jdoc:include type="modules" name="col-to-catalog" style="mystyle" />
+			<jdoc:include type="modules" name="bot-icons" style="mystyle" />			
 		</div><!--w-miain-->
 		<div class="light-blue-block">
 			<div class="w1024">

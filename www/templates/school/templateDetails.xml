@@ -37,5 +37,7 @@
 		<position>col-projects</position>
 		<position>wrap-all</position>
 		<position>how-we-works</position>
+		<position>col-to-catalog</position>
+		<position>bot-icons</position>
 	</positions>
 </extension>

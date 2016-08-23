@@ -693,8 +693,12 @@ h5.col-projects {
   overflow: hidden;
   margin-bottom: 20px; }
 
+.col-to-catalog {
+  padding-bottom: 65px;
+}
+
 .how-we-works {
-  padding: 65px 40px; }
+  padding: 65px 40px 0 40px; }
   .how-we-works h2 {
     color: black;
     font-family: PTMono;
@@ -769,17 +773,28 @@ h5.col-projects {
     background-repeat: no-repeat;
     background-position: left center;
     height: 56px;
-    padding: 0 160px;
+    /*padding: 0 160px;*/
     padding-left: 60px;
     line-height: 1.2; }
-    .bot-icons li:first-child {
-      background-image: url("../img/rocket.png"); }
-    .bot-icons li:nth-child(2) {
-      background-image: url("../img/online.png"); }
-    .bot-icons li:nth-child(3) {
-      background-image: url("../img/case.png"); }
     .bot-icons li a {
       color: #000; }
+
+.bot-icons a {
+  display: block;
+  width: 230px;
+  overflow: hidden;
+}
+
+.bot-icons img {
+  float: left;
+}
+
+.bot-icons .image-title {
+  float: left;
+  display: block;
+  width: 150px;
+  margin-left: 15px;
+}
 
 .light-blue-block {
   background-color: #4A81AD;
@@ -1343,7 +1358,7 @@ h5.col-projects {
     padding: 40px; }
     .bot-icons li {
       background-position: top center;
-      margin-bottom: 70px;
+     /* margin-bottom: 70px;*/
       padding-top: 55px;
       text-align: center;
       padding-left: 0;
@@ -1360,6 +1375,11 @@ h5.col-projects {
     margin-bottom: 20px; }
   .bot-mnu2 {
     margin-bottom: 0; } }
+
+.bot-icons a {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
