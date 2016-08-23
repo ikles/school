@@ -449,6 +449,9 @@ width: 231px;
 height: 174px;   
 }
 
+.col-pop .quantity-box, .col-pop .quantity-controls {
+  display: none !important;
+}
 
 .col-pop {
   padding: 25px 20px; }
@@ -471,7 +474,7 @@ height: 174px;
       font-weight: 700;
       font-size: 26px;
       text-decoration: underline; }
-  .col-pop .add_cart {
+  .col-pop .add_cart, .col-pop input.addtocart-button {
     height: 41px;
     background-color: #fc0;
     padding: 0 10px;
@@ -488,6 +491,28 @@ height: 174px;
     margin-top: 17px;
     text-transform: uppercase; }
 
+.addtocart-bar, .addtocart-area {
+  margin-top: 0 !important;
+}
+
+.col-pop input.addtocart-button {
+    height: 41px !important;
+    background-color: #fc0 !important;
+    padding: 0 10px !important;
+    border: 2px solid white !important;
+    -webkit-border-radius: 15px !important;
+            border-radius: 15px !important;
+    display: inline-block !important;
+    color: black !important;
+    font-family: PTMono !important;
+    font-size: 17px !important;
+    font-weight: 700 !important;
+    line-height: 2 !important;
+    text-decoration: underline !important;
+    margin-top: 17px !important;
+    text-transform: uppercase !important;
+}
+
 .add_cart.added {
   background-color: #a3ffa5;
   font-size: 14px;
@@ -495,13 +520,13 @@ height: 174px;
   text-transform: none;
   line-height: 2.6; }
 
-.pops div {
+.pops div, .col-pop .vmproduct > div {
   padding: 17px 0 !important;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 1px solid transparent;
   margin-bottom: 10px; }
-  .pops div:hover {
+  .pops div:hover, .col-pop .vmproduct > div:hover {
     border: 1px solid #0071bb;
     -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.28);
             box-shadow: 0 4px 5px rgba(0, 0, 0, 0.28); }
@@ -512,7 +537,7 @@ height: 174px;
   overflow: hidden; }
   .obords h2 {
     margin-bottom: 25px; }
-    .obords h2 a {
+    .obords h2 {
       color: white;
       font-family: PTMono;
       font-size: 26px;
@@ -526,45 +551,31 @@ height: 174px;
     text-align: center;
     margin-bottom: 35px; }
     .obords li a {
-      padding-top: 70px;
+      /*padding-top: 70px*/;
       height: 105px;
       display: block;
-      background-position: top center; }
-    .obords li:first-child a {
-      background-image: url("../img/rus.png"); }
-    .obords li:nth-child(2) a {
-      background-image: url("../img/mat.png"); }
-    .obords li:nth-child(3) a {
-      background-image: url("../img/hist.png"); }
-    .obords li:nth-child(4) a {
-      background-image: url("../img/inform.png"); }
-    .obords li:nth-child(5) a {
-      background-image: url("../img/izo.png"); }
-    .obords li:nth-child(6) a {
-      background-image: url("../img/geo.png"); }
-    .obords li:nth-child(7) a {
-      background-image: url("../img/obz.png"); }
-    .obords li:nth-child(8) a {
-      background-image: url("../img/inyaz.png"); }
-    .obords li:nth-child(9) a {
-      background-image: url("../img/him.png"); }
-    .obords li:nth-child(10) a {
-      background-image: url("../img/bio.png"); }
-    .obords li:nth-child(11) a {
-      background-image: url("../img/fizkult.png"); }
-    .obords li:nth-child(12) a {
-      background-image: url("../img/muz.png"); }
-    .obords li:nth-child(13) a {
-      background-image: url("../img/fizik.png"); }
-    .obords li:nth-child(14) a {
-      background-image: url("../img/eco.png"); }
-    .obords li a {
+      background-position: top center; }   
+    .obords li a {      
       font-size: 14px;
       color: #FFF;
       font-family: PTMono;
       text-align: center; }
       .obords li a:hover {
         text-decoration: none; }
+
+    .obords li a img {
+      height: 50px;
+      width: auto;
+    }
+h5.col-projects {
+  padding: 0 !important;
+}
+.obords .image-title {
+  display: block;
+  text-align: center;
+  margin-top: 12px;    
+  width: 100%;
+} 
 
 .free-call {
   padding: 15px 0;
@@ -622,7 +633,8 @@ height: 174px;
   padding-left: 0 !important; }
 
 .col-projects {
-  padding: 25px 30px; }
+  padding: 25px 30px;
+  padding-bottom: 0; }
   .col-projects ul {
     width: 100%;
     display: block;
@@ -643,7 +655,7 @@ height: 174px;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 25px; }
-    .col-projects h2 a {
+    .col-projects h2 {
       color: black;
       text-decoration: underline; }
   .col-projects a {
@@ -658,9 +670,10 @@ height: 174px;
       display: block;
       margin-top: 7px; }
 
-.wrap-all {
-  width: 100%;
-  overflow: hidden; }
+.wrap-all {  
+  overflow: hidden;
+  padding-left: 30px;
+  padding-right: 30px; }
 
 .view-all-reviews {
   display: block;
@@ -686,14 +699,14 @@ height: 174px;
     color: black;
     font-family: PTMono;
     font-size: 26px; }
-    .how-we-works h2 a {
+    .how-we-works h2 {
       color: black;
       font-weight: 700;
       text-decoration: underline;
       text-transform: uppercase;
       margin-bottom: 35px; }
   .how-we-works .text-mod {
-    margin-top: 20px; }
+    margin-top: 20px !important; }
   .how-we-works table {
     width: 100%; }
     .how-we-works table td {

@@ -28,4 +28,6 @@ var b = $('.col-projects li').outerHeight()+20;
 
 	$('.oborud li').addClass('col-lg-3 col-md-3 col-sm-3 col-xs-6');	
 
+	$('.col-pop .vmproduct > div').addClass('col-lg-3 col-md-3 col-sm-6 col-xs-12 nopadding');
+
 });//ready

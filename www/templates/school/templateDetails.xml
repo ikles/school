@@ -32,5 +32,10 @@
 		<position>oborud</position>
 		<position>slider</position>
 		<position>col-pop</position>
+		<position>obords</position>
+		<position>free-call</position>
+		<position>col-projects</position>
+		<position>wrap-all</position>
+		<position>how-we-works</position>
 	</positions>
 </extension>

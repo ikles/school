@@ -63,188 +63,107 @@ $app = JFactory::getApplication();
 			</div>		
 			<jdoc:include type="modules" name="slider" style="mystyle" />					
 			<div class="w1024 white-col col-pop"> 
-			<jdoc:include type="modules" name="col-pop" style="mystyle" />					
+				<jdoc:include type="modules" name="col-pop" style="mystyle" />					
 			</div>
 			<div class="w1024 white-col col-obor">						
-				<div class="obords">
-					<h2><a href="#">Оборудование для кабинетов</a></h2>
-					<ul>
-						<li><a href="#">Русский язык и литература</a></li>
-						<li><a href="#">Математика</a></li>
-						<li><a href="#">Истроия</a></li>
-						<li><a href="#">Информатика</a></li>
-						<li><a href="#">ИЗО и черчение</a></li>
-						<li><a href="#">География</a></li>
-						<li><a href="#">ОБЖ</a></li>
-						<li><a href="#">Иностранный язык</a></li>
-						<li><a href="#">Химия</a></li>
-						<li><a href="#">Биология</a></li>
-						<li><a href="#">Физкультура</a></li>
-						<li><a href="#">Музыка</a></li>
-						<li><a href="#">Физика</a></li>
-						<li><a href="#">Экология</a></li>
-					</ul>
-				</div>
-			</div><!--col-obor-->
-			<div class="free-call">
-				<div class="w1024">
-					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-free-phone nopadding-l"><p>8-(800)-2000-600</p></div>
-					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-free-text nopadding-r"><p>Есть вопросы? Звоните! 
-						<br><span>(звонок по России бесплатный)</span></p></div>
-					</div>
-				</div><!--free-call-->
-				<div class="w1024 white-col col-projects">
-					<h2><a href="#">Наши проекты</a></h2>
-					<div class="reviews-cantainer">
+				<jdoc:include type="modules" name="obords" style="mystyle" />					
+			</div><!--col-obor-->		
+			<jdoc:include type="modules" name="free-call" style="mystyle" />								
+			<jdoc:include type="modules" name="col-projects" style="mystyle" />											
+			<jdoc:include type="modules" name="wrap-all" style="mystyle" />																	
+			<jdoc:include type="modules" name="how-we-works" style="mystyle" />																				
+			<a href="#" class="go-to-catalog">Перейти к каталогу!</a>			
+			<div class="w1024 bot-icons">
+				<ul>
+					<li><a href="#">Доставка&nbsp;по <br>всей России</a></li>
+					<li><a href="#">Наличный и безналичный рассчет</a></li>
+					<li><a href="#">Чистый документооборот</a></li>
+				</ul>
+			</div><!--bot-icons-->
+		</div><!--w-miain-->
+		<div class="light-blue-block">
+			<div class="w1024">
+				<div class="bot bot1">
+					<div class="bot-mnu bot-mnu1">
+						<h2>Помещения:</h2>
 						<ul>
-							<li>
-								<a href="#">
-									<img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/project1.png" alt="">
-									<span>МОУ 13</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/project1.png" alt="">
-									<span>МОУ 13</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/project1.png" alt="">
-									<span>МОУ 13</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/project1.png" alt="">
-									<span>МОУ 13</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/project1.png" alt="">
-									<span>МОУ 13</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/project1.png" alt="">
-									<span>МОУ 13</span>
-								</a>
-							</li>
-						</ul>		
-					</div><!--reviews-cantainer-->
-					<div class="wrap-all">
-						<a href="#" class="view-all-reviews">Посмотреть все проекты</a>																		
+							<li><a href="#">Кабинет</a></li>
+							<li><a href="#">Актовый зал</a></li>
+							<li><a href="#">Спорт-зал</a></li>
+							<li><a href="#">Медкабинет</a></li>
+							<li><a href="#">Гардероб</a></li>
+							<li><a href="#">Столовая</a></li>
+						</ul>
+					</div>
+					<div class="bot-mnu bot-mnu2">
+						<h2>Учебное заведение:</h2>
+						<ul>									
+							<li><a href="#">Детский сад</a></li>
+							<li><a href="#">Начальная школа</a></li>
+							<li><a href="#">Средняя школа</a></li>
+							<li><a href="#">Высшая школа</a></li>
+						</ul>
+					</div>
+				</div>	
+				<div class="bot bot2">
+					<div class="bot-mnu bot-mnu3">
+						<h2>Предмет:</h2>
+						<ul>
+							<li><a href="#">Русскоий язык и литература</a></li>
+							<li><a href="#">Физика</a></li>
+							<li><a href="#">Химия</a></li>
+							<li><a href="#">Биология</a></li>
+							<li><a href="#">Математика</a></li>
+							<li><a href="#">Экология и ОБЖ</a></li>
+							<li><a href="#">Информатика</a></li>
+							<li><a href="#">География</a></li>
+							<li><a href="#">ИЗО и черчение</a></li>
+							<li><a href="#">Музыка</a></li>
+							<li><a href="#">Иностранный язык</a></li>
+							<li><a href="#">История</a></li>
+							<li><a href="#">Математика</a></li>
+							<li><a href="#">Физкультура </a></li>
+						</ul>
+					</div>
+				</div>	
+				<div class="bot bot3">
+					<div class="bot-mnu bot-mnu3">
+						<h2>Оборудование:</h2>
+						<ul>									
+							<li><a href="#">Мебель ученическая</a></li>
+							<li><a href="#">Многофункциональный комплекс преподавателя</a></li>
+							<li><a href="#">Стулья из натурального дерева</a></li>
+							<li><a href="#">Столовое оборудование</a></li>
+							<li><a href="#">Станки для кабинета труда</a></li>
+							<li><a href="#">Мебель для столовой</a></li>
+							<li><a href="#">Музыкальные инструменты</a></li>
+							<li><a href="#">Информационные стенды</a></li>
+							<li><a href="#">Питьевые фонтанчики</a></li>
+							<li><a href="#">Электронные расписания</a></li>
+							<li><a href="#">Системы голосования</a></li>
+						</ul>
+					</div>
+				</div>	
+			</div>
+		</div><!--light-blue-block-->
+		<div class="bot-blue-block">
+			<div class="w1024">
+				<a href="/" class="logo2"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/logo2.png" alt=""></a>
+				<div class="bot-contacts">
+					<div class="bot-adress">
+						<p>ООО «МОСПРОФ»<br>
+							Россия,622049, г. Нижний Тагил, <br>
+							Радищева, 28, оф. 1204
+						</p>
+					</div>
+					<div class="bot-phone-mail">
+						<p>+7 9 22222 0889 <br>
+							<a href="mailto:info@aoosk.ru">info@aoosk.ru</a>
+						</p>
 					</div>
 				</div>
-				<div class="w1024 white-col how-we-works">
-					<h2><a href="#">Как мы работаем</a></h2>
-					<div class="text-mod">
-						<table>
-							<tr>
-								<td>Сопровождение и помощь учреждению в участии в торгах и написании технического задания</td>
-								<td>Формироуем 3 коммерческих предложений от разных компаний (по 44 фз)</td>
-								<td>Составляем договор </td>
-								<td>формируем заказ</td>
-								<td>Доставляем заказ в любую точку России</td>
-							</tr>
-						</table>							
-					</div>
-					<a href="#" class="go-to-catalog">Перейти к каталогу!</a>
-				</div><!--how-we-works-->
-				<div class="w1024 bot-icons">
-					<ul>
-						<li><a href="#">Доставка&nbsp;по <br>всей России</a></li>
-						<li><a href="#">Наличный и безналичный рассчет</a></li>
-						<li><a href="#">Чистый документооборот</a></li>
-					</ul>
-				</div><!--bot-icons-->
-			</div><!--w-miain-->
-			<div class="light-blue-block">
-				<div class="w1024">
-					<div class="bot bot1">
-						<div class="bot-mnu bot-mnu1">
-							<h2>Помещения:</h2>
-							<ul>
-								<li><a href="#">Кабинет</a></li>
-								<li><a href="#">Актовый зал</a></li>
-								<li><a href="#">Спорт-зал</a></li>
-								<li><a href="#">Медкабинет</a></li>
-								<li><a href="#">Гардероб</a></li>
-								<li><a href="#">Столовая</a></li>
-							</ul>
-						</div>
-						<div class="bot-mnu bot-mnu2">
-							<h2>Учебное заведение:</h2>
-							<ul>									
-								<li><a href="#">Детский сад</a></li>
-								<li><a href="#">Начальная школа</a></li>
-								<li><a href="#">Средняя школа</a></li>
-								<li><a href="#">Высшая школа</a></li>
-							</ul>
-						</div>
-					</div>	
-					<div class="bot bot2">
-						<div class="bot-mnu bot-mnu3">
-							<h2>Предмет:</h2>
-							<ul>
-								<li><a href="#">Русскоий язык и литература</a></li>
-								<li><a href="#">Физика</a></li>
-								<li><a href="#">Химия</a></li>
-								<li><a href="#">Биология</a></li>
-								<li><a href="#">Математика</a></li>
-								<li><a href="#">Экология и ОБЖ</a></li>
-								<li><a href="#">Информатика</a></li>
-								<li><a href="#">География</a></li>
-								<li><a href="#">ИЗО и черчение</a></li>
-								<li><a href="#">Музыка</a></li>
-								<li><a href="#">Иностранный язык</a></li>
-								<li><a href="#">История</a></li>
-								<li><a href="#">Математика</a></li>
-								<li><a href="#">Физкультура </a></li>
-							</ul>
-						</div>
-					</div>	
-					<div class="bot bot3">
-						<div class="bot-mnu bot-mnu3">
-							<h2>Оборудование:</h2>
-							<ul>									
-								<li><a href="#">Мебель ученическая</a></li>
-								<li><a href="#">Многофункциональный комплекс преподавателя</a></li>
-								<li><a href="#">Стулья из натурального дерева</a></li>
-								<li><a href="#">Столовое оборудование</a></li>
-								<li><a href="#">Станки для кабинета труда</a></li>
-								<li><a href="#">Мебель для столовой</a></li>
-								<li><a href="#">Музыкальные инструменты</a></li>
-								<li><a href="#">Информационные стенды</a></li>
-								<li><a href="#">Питьевые фонтанчики</a></li>
-								<li><a href="#">Электронные расписания</a></li>
-								<li><a href="#">Системы голосования</a></li>
-							</ul>
-						</div>
-					</div>	
-				</div>
-			</div><!--light-blue-block-->
-			<div class="bot-blue-block">
-				<div class="w1024">
-					<a href="/" class="logo2"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/logo2.png" alt=""></a>
-					<div class="bot-contacts">
-						<div class="bot-adress">
-							<p>ООО «МОСПРОФ»<br>
-								Россия,622049, г. Нижний Тагил, <br>
-								Радищева, 28, оф. 1204
-							</p>
-						</div>
-						<div class="bot-phone-mail">
-							<p>+7 9 22222 0889 <br>
-								<a href="mailto:info@aoosk.ru">info@aoosk.ru</a>
-							</p>
-						</div>
-					</div>
-				</div>
-			</div><!--blue-block-->
-		</div><!--wrapper-->
-	</body>
-	</html>
+			</div>
+		</div><!--blue-block-->
+	</div><!--wrapper-->
+</body>
+</html>
