@@ -78,65 +78,13 @@ $app = JFactory::getApplication();
 		<div class="light-blue-block">
 			<div class="w1024">
 				<div class="bot bot1">
-					<div class="bot-mnu bot-mnu1">
-						<h2>Помещения:</h2>
-						<ul>
-							<li><a href="#">Кабинет</a></li>
-							<li><a href="#">Актовый зал</a></li>
-							<li><a href="#">Спорт-зал</a></li>
-							<li><a href="#">Медкабинет</a></li>
-							<li><a href="#">Гардероб</a></li>
-							<li><a href="#">Столовая</a></li>
-						</ul>
-					</div>
-					<div class="bot-mnu bot-mnu2">
-						<h2>Учебное заведение:</h2>
-						<ul>									
-							<li><a href="#">Детский сад</a></li>
-							<li><a href="#">Начальная школа</a></li>
-							<li><a href="#">Средняя школа</a></li>
-							<li><a href="#">Высшая школа</a></li>
-						</ul>
-					</div>
+					<jdoc:include type="modules" name="bot-mnu12" style="mystyle" />
 				</div>	
 				<div class="bot bot2">
-					<div class="bot-mnu bot-mnu3">
-						<h2>Предмет:</h2>
-						<ul>
-							<li><a href="#">Русскоий язык и литература</a></li>
-							<li><a href="#">Физика</a></li>
-							<li><a href="#">Химия</a></li>
-							<li><a href="#">Биология</a></li>
-							<li><a href="#">Математика</a></li>
-							<li><a href="#">Экология и ОБЖ</a></li>
-							<li><a href="#">Информатика</a></li>
-							<li><a href="#">География</a></li>
-							<li><a href="#">ИЗО и черчение</a></li>
-							<li><a href="#">Музыка</a></li>
-							<li><a href="#">Иностранный язык</a></li>
-							<li><a href="#">История</a></li>
-							<li><a href="#">Математика</a></li>
-							<li><a href="#">Физкультура </a></li>
-						</ul>
-					</div>
+					<jdoc:include type="modules" name="bot-mnu3" style="mystyle" />
 				</div>	
 				<div class="bot bot3">
-					<div class="bot-mnu bot-mnu3">
-						<h2>Оборудование:</h2>
-						<ul>									
-							<li><a href="#">Мебель ученическая</a></li>
-							<li><a href="#">Многофункциональный комплекс преподавателя</a></li>
-							<li><a href="#">Стулья из натурального дерева</a></li>
-							<li><a href="#">Столовое оборудование</a></li>
-							<li><a href="#">Станки для кабинета труда</a></li>
-							<li><a href="#">Мебель для столовой</a></li>
-							<li><a href="#">Музыкальные инструменты</a></li>
-							<li><a href="#">Информационные стенды</a></li>
-							<li><a href="#">Питьевые фонтанчики</a></li>
-							<li><a href="#">Электронные расписания</a></li>
-							<li><a href="#">Системы голосования</a></li>
-						</ul>
-					</div>
+					<jdoc:include type="modules" name="bot-mnu4" style="mystyle" />
 				</div>	
 			</div>
 		</div><!--light-blue-block-->
@@ -144,17 +92,8 @@ $app = JFactory::getApplication();
 			<div class="w1024">
 				<a href="/" class="logo2"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/logo2.png" alt=""></a>
 				<div class="bot-contacts">
-					<div class="bot-adress">
-						<p>ООО «МОСПРОФ»<br>
-							Россия,622049, г. Нижний Тагил, <br>
-							Радищева, 28, оф. 1204
-						</p>
-					</div>
-					<div class="bot-phone-mail">
-						<p>+7 9 22222 0889 <br>
-							<a href="mailto:info@aoosk.ru">info@aoosk.ru</a>
-						</p>
-					</div>
+					<jdoc:include type="modules" name="bot-adress" style="mystyle" />
+					<jdoc:include type="modules" name="bot-phone-mail" style="mystyle" />
 				</div>
 			</div>
 		</div><!--blue-block-->

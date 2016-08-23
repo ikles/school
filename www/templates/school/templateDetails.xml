@@ -39,5 +39,10 @@
 		<position>how-we-works</position>
 		<position>col-to-catalog</position>
 		<position>bot-icons</position>
+		<position>bot-mnu12</position>
+		<position>bot-mnu3</position>
+		<position>bot-mnu4</position>
+		<position>bot-adress</position>
+		<position>bot-phone-mail</position>
 	</positions>
 </extension>

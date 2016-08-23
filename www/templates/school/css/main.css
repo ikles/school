@@ -1152,6 +1152,11 @@ h5.col-projects {
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
+  .col-component {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .col-product {
     padding-bottom: 40px; }
   .col-prod-image {
@@ -1358,15 +1363,15 @@ h5.col-projects {
     padding: 40px; }
     .bot-icons li {
       background-position: top center;
-     /* margin-bottom: 70px;*/
-      padding-top: 55px;
+      margin-bottom: 40px;
+      padding-top: 0px;
       text-align: center;
       padding-left: 0;
       width: 100%;
       margin-right: 0px;
       margin-left: 0px; }
       .bot-icons li:last-child {
-        margin-bottom: 20px; }
+        margin-bottom: 0px; }
   .bot1, .bot2, .bot3 {
     width: 100%; }
   .light-blue-block .w1024 {
@@ -1379,6 +1384,10 @@ h5.col-projects {
 .bot-icons a {
   margin-left: auto;
   margin-right: auto;
+}
+
+.help-link {
+  margin-left: 10px;
 }
 
 /* Small Devices, Tablets */
