@@ -47,5 +47,8 @@
 		<position>col-cat-header</position>
 		<position>col-cat</position>
 		<position>obords2</position>
+		<position>col-pop2</position>
+		<position>col-uch-zav</position>
+		<position>oborud-list</position>
 	</positions>
 </extension>

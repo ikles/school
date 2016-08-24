@@ -924,6 +924,12 @@ h5.col-projects {
     font-family: PTMono;
     font-size: 26px;
     font-weight: 700; }
+
+  .col-uch-zav ul {
+    display: block;
+    margin-top: 50px;
+  }
+
   .col-uch-zav li {
     width: 25%;
     float: left;
@@ -932,23 +938,21 @@ h5.col-projects {
       color: #FFF;
       text-decoration: none;
       background-repeat: no-repeat;
-      background-position: top center;
-      padding-top: 135px;
+      background-position: top center;    
       display: block; }
       .col-uch-zav li a span {
         color: white;
         font-family: PTMono;
         font-size: 26px;
         font-weight: 400;
-        text-decoration: underline; }
-  .col-uch-zav li:first-child a {
-    background-image: url("../img/detsad.png"); }
-  .col-uch-zav li:nth-child(2) a {
-    background-image: url("../img/nachschool.png"); }
-  .col-uch-zav li:nth-child(3) a {
-    background-image: url("../img/sredschool.png"); }
-  .col-uch-zav li:nth-child(4) a {
-    background-image: url("../img/highschool.png"); }
+        text-decoration: underline;
+        display: block;
+        margin-top: 20px;  }
+
+      .col-uch-zav li a img{
+        height: 134px;
+        width: auto;
+      }
 
 .oborud-list {
   overflow: hidden;
@@ -958,15 +962,20 @@ h5.col-projects {
     font-family: PTMono;
     font-weight: 400;
     font-size: 26px; }
+
+  .oborud-list ul {
+    margin-top: 35px;
+    display: block;
+  }
   .oborud-list .text-mod {
     margin-top: 35px;
     overflow: hidden; }
-    .oborud-list .text-mod li {
+    .oborud-list ul li {
       float: left;
       color: #786a6a;
       margin-right: 5px;
       margin-bottom: 5px; }
-      .oborud-list .text-mod li a {
+      .oborud-list ul li a {
         font-size: 14px;
         text-decoration: underline;
         color: #786a6a;
@@ -977,30 +986,30 @@ h5.col-projects {
         display: inline-block;
         line-height: 1.7;
         padding: 0 5px; }
-      .oborud-list .text-mod li:nth-child(2) a {
+      .oborud-list ul li:nth-child(2) a {
         background-color: #f6b979; }
-      .oborud-list .text-mod li:nth-child(3) a {
+      .oborud-list ul li:nth-child(3) a {
         background-color: #f6e079; }
-      .oborud-list .text-mod li:nth-child(4) a {
+      .oborud-list ul li:nth-child(4) a {
         background-color: #79bff6; }
-      .oborud-list .text-mod li:nth-child(5) a {
+      .oborud-list ul li:nth-child(5) a {
         background-color: #79f6da; }
-      .oborud-list .text-mod li:nth-child(6) a {
+      .oborud-list ul li:nth-child(6) a {
         background-color: #79f67e; }
-      .oborud-list .text-mod li:nth-child(7) a {
+      .oborud-list ul li:nth-child(7) a {
         background-color: #cef679; }
-      .oborud-list .text-mod li:nth-child(8) a {
+      .oborud-list ul li:nth-child(8) a {
         background-color: #cb79f6; }
-      .oborud-list .text-mod li:nth-child(9) a {
+      .oborud-list ul li:nth-child(9) a {
         background-color: #f679e6; }
-      .oborud-list .text-mod li:nth-child(10) a {
+      .oborud-list ul li:nth-child(10) a {
         background-color: #f679a2; }
-      .oborud-list .text-mod li:nth-child(11) a {
+      .oborud-list ul li:nth-child(11) a {
         background-color: #f67979; }
-      .oborud-list .text-mod li:after {
+      .oborud-list ul li:after {
         content: ",";
         color: #786a6a; }
-      .oborud-list .text-mod li:last-child:after {
+      .oborud-list ul li:last-child:after {
         display: none; }
 
 .catal {
