@@ -33,11 +33,9 @@ var b = $('.col-projects li').outerHeight()+20;
 	
 	
   $(".w1024").each(function(){
-    var list = !($(this).find('div, h2, ul'));
-   
-    if(list.length > 0){
-    	$(this).remove();
-    }
-  })
+  if( $.trim($(this).text()) == "" ){
+    $(this).css({'display':'none'});
+  }
+});
 
 });//ready

@@ -65,6 +65,7 @@ $app = JFactory::getApplication();
 			</div>
 			<jdoc:include type="modules" name="col-uch-zav" style="mystyle" />					
 			<jdoc:include type="modules" name="oborud-list" style="mystyle" />					
+			<jdoc:include type="modules" name="col-bread" style="mystyle" />					
 			<div class="w1024 white-col col-component">
 				<jdoc:include type="component" style="xhtml" />
 			</div>

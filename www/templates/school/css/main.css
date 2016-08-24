@@ -1035,6 +1035,25 @@ h5.col-projects {
   width: 100% !important;
 }
 
+.col-bread .active:first-child {
+  display: none;
+}
+
+.col-bread .divider {
+  display: none;
+}
+
+.product-neighbours {
+  display: none;
+}
+
+.back-to-category {
+  display: none;
+}
+.printModal {
+  display: none;
+}
+
 .catal {
   padding: 25px; }
   .catal h2, .latest-view h4, .topten-view h4, .recent-view h4 {
@@ -1128,7 +1147,7 @@ h5.col-projects {
   .col-product p {
     line-height: 1.2;
     margin-bottom: 20px; }
-  .col-product h1 {
+  .col-product h1, .productdetails-view h1 {
     color: black;
     font-family: PTMono;
     font-size: 26px;

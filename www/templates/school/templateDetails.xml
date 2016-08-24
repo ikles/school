@@ -50,5 +50,6 @@
 		<position>col-pop2</position>
 		<position>col-uch-zav</position>
 		<position>oborud-list</position>
+		<position>col-bread</position>
 	</positions>
 </extension>
