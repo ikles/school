@@ -1114,7 +1114,7 @@ h5.col-projects {
 
 .col-bread {
   padding: 0 25px;
-  margin-top: 0px; }
+  margin-top: 0px;}
   .col-bread li {
     float: left;
     color: #b8b8b8;
@@ -1123,7 +1123,8 @@ h5.col-projects {
     .col-bread li:after {
       content: ">";
       margin-left: 5px;
-      margin-right: 5px; }
+      margin-right: 5px; 
+      float: right;}
     .col-bread li:last-child:after {
       display: none; }
     .col-bread li a {
@@ -1134,6 +1135,15 @@ h5.col-projects {
       font-family: PTMono;
       font-size: 17px;
       font-weight: 400; }
+
+#limit, .activeOrder {
+  margin-top: 10px;
+}
+
+
+.orderby-displaynumber {
+  display: none;
+}
 
 .col-product {
   padding-left: 40px;
@@ -1147,12 +1157,46 @@ h5.col-projects {
   .col-product p {
     line-height: 1.2;
     margin-bottom: 20px; }
-  .col-product h1, .productdetails-view h1 {
+  .col-product h1, .product-description h1, h1 {
     color: black;
     font-family: PTMono;
     font-size: 26px;
     font-weight: 400;
     margin-bottom: 10px; }
+
+.cart-view td {
+  padding: 5px !important;
+}
+
+
+.col-component p {
+  margin-bottom: 20px;
+}
+
+.col-component p:last-child {
+  margin-bottom: 0;
+}
+
+.main-image > a {
+  display: block;
+  width: 231px;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+
+.col-product1 {
+  padding-top: 75px;
+}
+
+ul.col-bread {
+  padding: 0 !important;   
+  margin-bottom: 10px;
+  padding-bottom: 5px;  
+  padding-bottom: 5px !important;
+  display: block !important;
+}
+
 
 .col-prod-image {
   text-align: center; }
@@ -1174,43 +1218,49 @@ h5.col-projects {
   .col-prod-text td:first-child {
     font-weight: 700; }
 
-.add_cart3 {
-  width: 201px;
-  height: 58px;
-  background-color: #fc0;
-  border: 2px solid white;
-  -webkit-border-radius: 15px;
-          border-radius: 15px;
+.col-component .productdetails span.addtocart-button {
+  width: 100%;
   display: block;
-  margin: auto;
-  color: black;
-  font-family: PTMono;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 2;
-  text-decoration: underline;
-  text-align: center;
-  text-transform: uppercase; }
+  margin-top: 20px;
+}
+
+.add_cart3, .col-component .productdetails input.addtocart-button {
+  width: 201px !important;
+  height: 58px !important;
+  background-color: #fc0 !important;
+  border: 2px solid white !important;
+  -webkit-border-radius: 15px !important;
+          border-radius: 15px !important;
+  display: block !important;
+  margin: auto !important;
+  color: black !important;
+  font-family: PTMono !importantq;
+  font-size: 26px !important;
+  font-weight: 700 !important;
+  line-height: 1.1 !important;
+  text-decoration: underline !important;
+  text-align: center !important;
+  text-transform: uppercase !important; }
 
 .col-obor2 {
   padding-bottom: 0; }
 
-.text-content {
+.text-content, .col-component {
   font-family: PTMono;
   color: black;
   font-size: 17px;
   padding: 0 40px 40px;
   line-height: 1.2; }
-  .text-content h2 {
+  .text-content h2, .col-component h2 {
     font-size: 26px;
     font-weight: 700;
     margin-bottom: 20px; }
-  .text-content img {
+  .text-content img, .col-component img {
     max-width: 100%;
     width: 100%; }
-  .text-content p {
+  .text-content p, .col-component p {
     margin-bottom: 20px; }
-    .text-content p:last-child {
+    .text-content p:last-child, .col-component p:last-child {
       margin-bottom: 0; }
 
 /*==========  Desktop First Method  ==========*/

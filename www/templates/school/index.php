@@ -76,6 +76,7 @@ $app = JFactory::getApplication();
 			<div class="w1024 white-col col-pop"> 
 				<jdoc:include type="modules" name="col-pop" style="mystyle" />					
 			</div>
+			<jdoc:include type="modules" name="free-call2" style="mystyle" />								
 			<div class="w1024 white-col col-obor">						
 				<jdoc:include type="modules" name="obords" style="mystyle" />					
 			</div><!--col-obor-->		

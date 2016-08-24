@@ -32,8 +32,8 @@ echo shopFunctionsF::renderVmSubLayout('askrecomjs',array('product'=>$this->prod
 if(vRequest::getInt('print',false)){ ?>
 <body onload="javascript:print();">
 <?php } ?>
-
-<div class="productdetails-view productdetails" >
+<div class="col-product1">
+<div class="productdetails-view productdetails col-lg-6 col-md-12 col-sm-12 col-xs-12 col-prod-image" >
 
     <?php
     // Product Navigation
@@ -70,7 +70,7 @@ if(vRequest::getInt('print',false)){ ?>
 	</div>
 
     <?php // Product Title   ?>
-    <h1 itemprop="name"><?php echo $this->product->product_name ?></h1>
+    
     <?php // Product Title END   ?>
 
     <?php // afterDisplayTitle Event
@@ -118,8 +118,8 @@ if(vRequest::getInt('print',false)){ ?>
 	echo shopFunctionsF::renderVmSubLayout('customfields',array('product'=>$this->product,'position'=>'ontop'));
     ?>
 
-    <div class="w1024 white-col col-product">
-	<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 col-prod-image">
+    <div class="div2">
+	<div class="div3">
 <?php
 echo $this->loadTemplate('images');
 ?>
@@ -198,7 +198,8 @@ echo $this->loadTemplate('images');
 	// Product Description
 	if (!empty($this->product->product_desc)) {
 	    ?>
-        <div class="product-description" >
+        <div class="product-description col-lg-6 col-md-12 col-sm-12 col-xs-12 col-prod-text">
+		<h1 itemprop="name"><?php echo $this->product->product_name ?></h1>
 	<?php /** @todo Test if content plugins modify the product description */ ?>
     	<span class="title"><?php echo vmText::_('COM_VIRTUEMART_PRODUCT_DESC_TITLE') ?></span>
 	<?php echo $this->product->product_desc; ?>
@@ -281,6 +282,7 @@ if ($this->product->prices['salesPrice'] > 0) {
 
 ?>
 </div>
+
 
 
 
