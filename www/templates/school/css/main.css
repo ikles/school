@@ -1012,9 +1012,32 @@ h5.col-projects {
       .oborud-list ul li:last-child:after {
         display: none; }
 
+.browseProductImage {
+    height: 174px !important;
+    width: auto !important;
+    max-width: auto !important;
+    max-height: 174px !important;
+}
+
+.col-component .quantity-box, .col-component .quantity-controls, .vm-details-button {
+  display: none;
+}
+
+.col-component .product-price {
+  display: none;
+}
+
+.vm-col {
+  margin: 0 !important;
+}
+
+.addtocart-area .product {
+  width: 100% !important;
+}
+
 .catal {
   padding: 25px; }
-  .catal h2 {
+  .catal h2, .latest-view h4, .topten-view h4, .recent-view h4 {
     color: black;
     font-family: PTMonoB;
     font-size: 26px;
@@ -1024,38 +1047,51 @@ h5.col-projects {
     padding-bottom: 5px; }
   .catal .text-mod {
     margin-top: 20px; }
-    .catal .text-mod li {
+    .catal .text-mod li, .row .product {
       width: 25%;
       float: left;
       text-align: center;
       margin-bottom: 35px; }
-      .catal .text-mod li a {
+      .catal .text-mod li a, .spacer div a {
         color: black;
         font-family: PTMono;
         font-size: 17px;
         font-weight: 700;
         text-decoration: underline; }
+
+    .spacer div h2, .spacer div {
+      margin-bottom: 0 !important;
+    }
     .catal .text-mod span {
       display: block; }
 
-.add_cart2 {
-  color: black;
-  font-family: PTMono;
-  font-size: 17px;
-  font-weight: 700;
-  line-height: 2;
-  text-decoration: underline;
-  height: 41px;
-  background-color: #fc0;
-  border: 2px solid white;
-  -webkit-border-radius: 15px;
-          border-radius: 15px;
-  display: block;
-  width: 139px;
-  text-align: center;
-  margin: 35px auto 0;
-  text-transform: uppercase;
-  line-height: 2.1; }
+    .spacer {
+      padding: 0 !important;
+    }
+
+  .row .product {
+    border: none !important;
+    margin-bottom: 35px;
+  }
+
+.add_cart2, .col-component input.addtocart-button {
+  color: black !important;
+  font-family: PTMono !important;
+  font-size: 17px !important;
+  font-weight: 700 !important;
+  line-height: 0.8 !important;
+  text-decoration: underline !important;
+  height: 41px !important;
+  background-color: #fc0 !important;
+  border: 2px solid white !important;
+  -webkit-border-radius: 15px !important;
+          border-radius: 15px !important;
+  display: block !important;
+  width: 139px !important;
+  text-align: center !important;
+  margin: 35px auto 0 !important;
+  text-transform: uppercase !important;
+}
 
 .col-bread {
   padding: 0 25px;
@@ -1255,7 +1291,7 @@ h5.col-projects {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  .catal .text-mod li {
+  .catal .text-mod li, .row .product {
     width: -webkit-calc(100% / 3);
     width: calc(100% / 3); }
   .main-mnu {
@@ -1413,7 +1449,7 @@ h5.col-projects {
     text-align: center; }
   .catal h2, .oborud-list h2 {
     text-align: center; }
-  .catal .text-mod li {
+  .catal .text-mod li, .row .product {
     width: 50%; }
   .col-cat-header h2, .col-cat h2 {
     text-align: center; }
@@ -1526,7 +1562,7 @@ h5.col-projects {
 @media only screen and (max-width: 480px) {
   .col-prod-text td, .col-prod-text thead td {
     font-size: 13px; }
-  .catal .text-mod li {
+  .catal .text-mod li, .row .product {
     width: 100%; }
   .col-uch-zav li a span {
     font-size: 19px; }

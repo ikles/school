@@ -30,4 +30,14 @@ var b = $('.col-projects li').outerHeight()+20;
 
 	$('.col-pop .vmproduct > div').addClass('col-lg-3 col-md-3 col-sm-6 col-xs-12 nopadding');
 
+	
+	
+  $(".w1024").each(function(){
+    var list = !($(this).find('div, h2, ul'));
+   
+    if(list.length > 0){
+    	$(this).remove();
+    }
+  })
+
 });//ready

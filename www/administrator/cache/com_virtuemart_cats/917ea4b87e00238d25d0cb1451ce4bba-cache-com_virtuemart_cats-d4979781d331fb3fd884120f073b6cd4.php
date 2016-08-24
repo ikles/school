@@ -1,1 +1,0 @@
-<?php die("Access Denied"); ?>#x#a:2:{s:6:"output";s:0:"";s:6:"result";s:223:"<option   value="4">Канцелярия</option><option   value="1">Мебель</option><option   value="2">Оборудование</option><option   value="3">Учебные материалы и пособия</option>";}
