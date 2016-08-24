@@ -55,6 +55,11 @@ $app = JFactory::getApplication();
 					</div><!--col-contacts-->
 				</div><!--blue-block-->	
 			</div><!--white-col-->
+			<jdoc:include type="modules" name="col-cat-header" style="mystyle" />						
+			<jdoc:include type="modules" name="col-cat" style="mystyle" />						
+			<div class="w1024 white-col col-obor">
+				<jdoc:include type="modules" name="obords2" style="mystyle" />									
+			</div> 
 			<div class="w1024 white-col col-component">
 				<jdoc:include type="component" style="xhtml" />
 			</div>

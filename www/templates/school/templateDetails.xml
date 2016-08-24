@@ -44,5 +44,8 @@
 		<position>bot-mnu4</position>
 		<position>bot-adress</position>
 		<position>bot-phone-mail</position>
+		<position>col-cat-header</position>
+		<position>col-cat</position>
+		<position>obords2</position>
 	</positions>
 </extension>
